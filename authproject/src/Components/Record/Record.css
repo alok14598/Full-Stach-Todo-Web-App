@@ -1,0 +1,37 @@
+.recordtext {
+    display: flex;
+    flex-direction: column;
+}
+.Record {
+    width: 380px;
+    border: 1px solid gray;
+    height: 180px;
+  
+}
+.title {
+    background-color: yellow;
+    color: black;
+    height: 20px;
+    padding: 20px;
+    width: 340px;
+    font-size: 25px;
+}
+.thoughts {
+    height: 100px;
+    width: 340px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    
+      
+
+}
+.box{
+    height: 90px;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}

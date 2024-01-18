@@ -1,0 +1,43 @@
+.containers {
+    background-color: rgb(169, 169, 169);
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+    
+}
+.dialogbox{
+    
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    margin: 112px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(201, 198, 198);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+h1{
+    color: white;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(79, 61, 149);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}

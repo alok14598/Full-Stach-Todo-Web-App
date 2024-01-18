@@ -1,0 +1,54 @@
+.RecordInput {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    background-color: rgb(169, 169, 169);
+}
+
+.RecordInputContainer {
+    padding: 20px;
+    
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formInput {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(201, 198, 198);
+    gap: 25px;
+}
+.labelform {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.thoughtInput {
+    height: 200px;
+    display: flex;
+    overflow: auto; 
+    border: none;
+      resize: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.inputlabel{
+    font-size: 15px;
+}
+.submit{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(79, 61, 149);
+    color: white;
+    font-weight: bold;
+
+    border: none;
+    cursor: pointer;
+    margin-top: 0px;
+}

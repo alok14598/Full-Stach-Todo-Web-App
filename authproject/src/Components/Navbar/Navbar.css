@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(126, 125, 125);
+    position: sticky;
+    top: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+  
+}
+.heading {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+  
+}
+.user {
+    display: flex;
+    gap:10px;
+}
+.buttons{
+    width: 80px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.358);
+    color: white;
+    border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-top: 0;
+}
+.username {
+    color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
